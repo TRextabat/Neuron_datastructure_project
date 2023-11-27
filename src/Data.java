@@ -24,6 +24,12 @@ public class Data
         {7.7, 9},
         {8.1, 11}
     };
+    private static double[][] test = {
+        {9,7},
+        {6,10},
+        {8,9},
+
+    };
     private static double[] targets = {77, 70, 55, 78, 95, 67, 80, 87, 60, 88, 72, 58, 70, 76, 58, 81, 74, 67, 82, 62, 82}; 
     private static double[][] normedinput = new double[valueMatrix.length][valueMatrix[0].length];;
     private static double[] normedtarget = new double[targets.length];
